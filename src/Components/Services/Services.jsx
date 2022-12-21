@@ -29,21 +29,21 @@ const Services = () => {
       </div>
       {/* right side */}
       <div className="cards">
-        <div style={{ left: "20rem" }}>
+        <div data-aos="zoom-in" style={{ left: "20rem" }}>
           <Card
             emoji={HeartEmoji}
             heading={"media"}
             detail={"media man also media and anohter media"}
           />
         </div>
-        <div style={{ top: "12rem", left: "-2rem" }}>
+        <div data-aos="zoom-in" style={{ top: "12rem", left: "-2rem" }}>
           <Card
             emoji={Glasses}
             heading={"media"}
             detail={"media man also media and anohter media"}
           />
         </div>
-        <div style={{ top: "19rem", left: "16rem" }}>
+        <div data-aos="zoom-in" style={{ top: "19rem", left: "16rem" }}>
           <Card
             emoji={Humble}
             heading={"media"}

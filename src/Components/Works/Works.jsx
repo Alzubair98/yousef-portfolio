@@ -7,6 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Contest";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 const Works = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
