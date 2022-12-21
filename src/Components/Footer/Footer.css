@@ -13,11 +13,21 @@
     flex-direction: column;
     width: 100%;
     margin-top: 4rem;
-    gap: 4rem;
+    gap: 2rem;
     color: white;
 }
 
 .f-icon{
     display: flex;
     gap: 2rem;
+}
+
+.copy-div{
+    display: flex;
+    gap: 1px;
+}
+
+.copy-div>:nth-child(2){
+    text-decoration: none;
+    color: white;
 }

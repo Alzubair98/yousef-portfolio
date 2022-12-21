@@ -9,7 +9,12 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import { themeContext } from "./Contest";
 import { useContext } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init({
+  duration: 1000,
+});
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;

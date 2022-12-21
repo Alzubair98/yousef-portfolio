@@ -4,6 +4,7 @@ import wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Face from "@iconscout/react-unicons/icons/uil-facebook";
 import You from "@iconscout/react-unicons/icons/uil-youtube";
+import Copy from "@iconscout/react-unicons/icons/uil-copyright";
 
 const Footer = () => {
   return (
@@ -20,6 +21,12 @@ const Footer = () => {
           </a>
           <a href="https://www.youtube.com/@yousefbeshr3571">
             <You color="white" size="3rem" />
+          </a>
+        </div>
+        <div className="copy-div">
+          <Copy color="white" size="1rem" />
+          <a className="zubair" href="https://alzubair.netlify.app/">
+            Designed by Alzubair
           </a>
         </div>
       </div>
