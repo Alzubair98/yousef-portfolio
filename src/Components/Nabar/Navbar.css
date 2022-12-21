@@ -33,11 +33,12 @@
     gap: 2rem;
     margin-right: 4rem;
     list-style: none;
+    cursor: pointer;
 }
 
-.n-list>ul>li:hover{
-    cursor: pointer;
-    color: var(--orange)
+.n-li:hover{
+    color: var(--orange);
+    
 }
 
 .n-button{
