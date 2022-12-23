@@ -14,17 +14,17 @@ const Navbar = () => {
         <div className="n-list">
           <ul>
             <Link spy={true} to="Home" smooth={true} activeClass="activeClass">
-              <li className="n-li">الرئيسية</li>
+              <li className="n-li">Home</li>
             </Link>
             <Link spy={true} to="مشاركاتي" smooth={true}>
-              <li className="n-li">مشاركاتي</li>
+              <li className="n-li">Participations</li>
             </Link>
             <Link spy={true} to="اعمالي" smooth={true}>
-              <li className="n-li">اعمالي</li>
+              <li className="n-li">About</li>
             </Link>
 
             <Link spy={true} to="Navbar" smooth={true}>
-              <li className="n-li">زياراتي</li>
+              <li className="n-li">Blogs</li>
             </Link>
 
             {/* <Link spy={true} to="Navbar" smooth={true}>
