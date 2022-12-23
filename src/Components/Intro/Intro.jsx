@@ -12,11 +12,8 @@ import Yousf from "../../img/Yousf.png";
 import FloatingDiv from "../FloatingDiv/floatingDiv";
 import { themeContext } from "../../Contest";
 import { useContext } from "react";
-import { motion } from "framer-motion";
 
 const Intro = () => {
-  const transition = { duration: 2, type: "spring" };
-
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -48,10 +45,18 @@ const Intro = () => {
         <img src={Vector2} />
         <img src={Yousf} alt="yousuf" />
         <img data-aos="fade-up-right" src={glassesimoji} alt="glasses imoji" />
-        <div data-aos="fade-up-left" style={{ top: "-4%", left: "68%" }}>
+        <div
+          data-aos="fade-up-left"
+          style={{ top: "-4%", left: "68%" }}
+          className="floating-div"
+        >
           <FloatingDiv image={Crown} txt1={"Media"} txt2={"Man"} />
         </div>
-        <div data-aos="fade-up-right" style={{ top: "18rem", left: "-2rem" }}>
+        <div
+          data-aos="fade-up-right"
+          style={{ top: "18rem", left: "-2rem" }}
+          className="floating-div"
+        >
           <FloatingDiv image={thumbup} txt1={"like"} txt2={"me"} />
         </div>
         {/* adding blur divs */}

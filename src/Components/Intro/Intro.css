@@ -107,3 +107,31 @@
     top: -18%;
     left: 53%;
 }
+
+@media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        
+    }
+
+    .i-right{
+        transform: scale(0.7);
+        left: -3rem;
+        top: 2rem;
+    }
+
+    .i-right .blue{
+        display: none;
+    }
+
+    .floating-div:nth-of-type(1){
+        top: -9rem !important;
+        margin-left: 1rem;
+    }
+    .floating-div:nth-of-type(2){
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+  }
+  
