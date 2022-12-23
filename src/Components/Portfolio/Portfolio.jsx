@@ -11,7 +11,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import { themeContext } from "../../Contest";
 import { useContext } from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);

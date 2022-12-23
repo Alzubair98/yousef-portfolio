@@ -39,4 +39,7 @@
     .card{
         width: auto;
     }
+    .c-button{
+        margin-left: 3rem;
+    }
 }
