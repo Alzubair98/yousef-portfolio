@@ -1,4 +1,5 @@
 import Navbar from "./Components/Nabar/Navbar";
+import Videos from "./Components/Videos/Videos";
 import Intro from "./Components/Intro/Intro";
 import Services from "./Components/Services/Services";
 import "./App.css";
@@ -7,10 +8,12 @@ import Works from "./Components/Works/Works";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
 import { themeContext } from "./Contest";
 import { useContext } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Home from "./Components/Home/Home";
 
 AOS.init({
   duration: 1000,
@@ -26,14 +29,10 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar />
-      <Intro />
-      <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/video" element={<Videos />} />
+      </Routes>
     </div>
   );
 }

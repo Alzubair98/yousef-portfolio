@@ -32,8 +32,11 @@ const Services = () => {
         <div data-aos="zoom-in" style={{ left: "20rem" }}>
           <Card
             emoji={HeartEmoji}
-            heading={"media"}
-            detail={"media man also media and anohter media"}
+            heading={"Videos"}
+            detail={
+              "Here are some of my Videos you can also find them on Youtube"
+            }
+            link={"/video"}
           />
         </div>
         <div data-aos="zoom-in" style={{ top: "12rem", left: "-2rem" }}>
