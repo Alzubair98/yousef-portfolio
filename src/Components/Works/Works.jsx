@@ -1,6 +1,6 @@
 import React from "react";
 import "./Works.css";
-import TKIF from "../../img/TKIF-test.png";
+import TKIF from "../../img/TKIF.png";
 import LOGO from "../../img/LOGO.png";
 import Amazon from "../../img/amazon.png";
 import balges from "../../img/balges.png";
