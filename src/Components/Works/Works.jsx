@@ -2,9 +2,9 @@ import React from "react";
 import "./Works.css";
 import TKIF from "../../img/TKIF.png";
 import LOGO from "../../img/LOGO.png";
-import Amazon from "../../img/amazon.png";
+import Aki from "../../img/Aki.png";
 import balges from "../../img/balges.png";
-import EDU from "../../img/EDU-LOGO.png";
+import Istanbul from "../../img/istanbul.png";
 import { themeContext } from "../../Contest";
 import { useContext } from "react";
 
@@ -43,13 +43,13 @@ const Works = () => {
             <img src={LOGO} alt="upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="upwork" />
+            <img src={Aki} alt="upwork" />
           </div>
           <div className="w-secCircle">
             <img src={balges} alt="upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={EDU} alt="upwork" />
+            <img src={Istanbul} alt="upwork" />
           </div>
         </div>
         <div className="w-backCircle blueCircle"></div>
