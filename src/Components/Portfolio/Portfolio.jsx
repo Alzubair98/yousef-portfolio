@@ -18,8 +18,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="مشاركاتي">
       {/* heading */}
-      <span style={{ color: darkMode ? "white" : "" }}>Recent Participant</span>
-      <span> In Tawakkol Karman</span>
+      <span style={{ color: darkMode ? "white" : "" }}>My</span>
+      <span>Recent Participant </span>
 
       {/* slider */}
       <Swiper

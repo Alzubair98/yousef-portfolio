@@ -42,14 +42,14 @@ const Services = () => {
         <div data-aos="zoom-in" style={{ top: "12rem", left: "-2rem" }}>
           <Card
             emoji={Glasses}
-            heading={"media"}
+            heading={"Photography"}
             detail={"media man also media and anohter media"}
           />
         </div>
         <div data-aos="zoom-in" style={{ top: "19rem", left: "16rem" }}>
           <Card
             emoji={Humble}
-            heading={"media"}
+            heading={"Blogs"}
             detail={"media man also media and anohter media"}
           />
         </div>

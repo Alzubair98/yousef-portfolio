@@ -14,11 +14,11 @@ const Experience = () => {
         <span>years In</span>
         <span>TKIF</span>
       </div>
-      {/* <div className="achievement">
+      <div className="achievement">
         <div className="circle">5+</div>
-        <span>years</span>
-        <span>company</span>
-      </div> */}
+        <span>years In</span>
+        <span>Translation & Marketing</span>
+      </div>
     </div>
   );
 };

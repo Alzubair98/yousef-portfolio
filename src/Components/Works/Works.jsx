@@ -1,10 +1,10 @@
 import React from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
+import TKIF from "../../img/TKIF-test.png";
+import LOGO from "../../img/LOGO.png";
 import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import balges from "../../img/balges.png";
+import EDU from "../../img/EDU-LOGO.png";
 import { themeContext } from "../../Contest";
 import { useContext } from "react";
 
@@ -37,19 +37,19 @@ const Works = () => {
       <div className="w-right">
         <div className="w-mainCircle">
           <div className="w-secCircle">
-            <img src={Upwork} alt="upwork" />
+            <img src={TKIF} alt="upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="upwork" />
+            <img src={LOGO} alt="upwork" />
           </div>
           <div className="w-secCircle">
             <img src={Amazon} alt="upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="upwork" />
+            <img src={balges} alt="upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="upwork" />
+            <img src={EDU} alt="upwork" />
           </div>
         </div>
         <div className="w-backCircle blueCircle"></div>
