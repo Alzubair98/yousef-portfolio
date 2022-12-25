@@ -53,16 +53,44 @@
     height: 6rem;
     position: absolute;
     border-radius: 100%;
-    border: 5px solid #ebebeb;
+    border: 2px solid #ebebeb;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     box-shadow: var(--smboxShadow);
+    overflow: hidden;
+}
+
+.w-secCircle::before{
+    content: '';
+    position: absolute;
+    inset: -20px  25px;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
+    animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.w-secCircle::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: white;
+    border-radius: 100%;
+    z-index: 1;
 }
 
 .w-secCircle> img{
     transform: scale(0.6);
+    z-index: 9999;
 }
 
 .w-backCircle{
@@ -77,12 +105,14 @@
     background-color: blue;
     left: 18rem;
     top: 0rem;
+    
 }
 
 .yelloweCircle{
     background-color: #F5C32C;
     left: 18rem;
     top: 8rem;
+    
 }
 
 @media screen and (max-width: 480px){
