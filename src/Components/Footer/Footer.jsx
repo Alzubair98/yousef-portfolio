@@ -13,10 +13,10 @@ const Footer = () => {
       <div className="f-content">
         <span>yousefbeshr2015@gmail.com</span>
         <div className="f-icon">
-          <a href="">
+          <a href="https://www.instagram.com/yousef_beshr/">
             <Insta color="white" size="3rem" />
           </a>
-          <a>
+          <a href="https://www.facebook.com/736328534yy?mibextid=ZbWKwL">
             <Face color="white" size="3rem" />
           </a>
           <a href="https://www.youtube.com/@yousefbeshr3571">

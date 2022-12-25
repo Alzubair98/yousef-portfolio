@@ -5,19 +5,19 @@ const Experience = () => {
   return (
     <div className="experience">
       <div className="achievement">
-        <div className="circle">8+</div>
-        <span>years</span>
-        <span>Experience</span>
+        <div className="circle">6+</div>
+        <span>years In</span>
+        <span>Mdeia & Content Industry</span>
       </div>
       <div className="achievement">
-        <div className="circle">10+</div>
-        <span>years</span>
-        <span>work</span>
+        <div className="circle">3+</div>
+        <span>years In</span>
+        <span>TKIF</span>
       </div>
       <div className="achievement">
         <div className="circle">5+</div>
-        <span>years</span>
-        <span>company</span>
+        <span>years In</span>
+        <span>Translation & Marketing</span>
       </div>
     </div>
   );
