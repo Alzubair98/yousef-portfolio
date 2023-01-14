@@ -42,7 +42,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Photography"}
-            detail={"My published articles and blog postings"}
+            detail={"Photographs taken of various places and events"}
           />
         </div>
         <div data-aos="zoom-in" style={{ top: "19rem", left: "16rem" }}>
