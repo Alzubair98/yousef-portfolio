@@ -23,8 +23,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>HI! I am </span>
           <span>Yousef Beshr</span>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Journalist, content creator, and presenter Interested in writing,
+            loves to read, enjoys music and hobbyist chef.
           </span>
         </div>
         <button className="button i-button">Contact me</button>
