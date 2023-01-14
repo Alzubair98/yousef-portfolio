@@ -34,9 +34,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Videos"}
-            detail={
-              "Here are some of my Videos you can also find them on Youtube"
-            }
+            detail={"Videos i created and my TV interviews"}
             link={"/video"}
           />
         </div>
