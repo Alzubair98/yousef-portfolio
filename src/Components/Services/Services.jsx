@@ -18,8 +18,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Content Writing,Presenting Events and Programs, Managing Social Meda
+          Pages <br /> Arabic Turkish Translation ,Proofeading, Press Editing ,
+          Media and marketing services
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
