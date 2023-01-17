@@ -53,7 +53,7 @@ const Services = () => {
           />
         </div>
         <div
-          className="blur s-blur2"
+          className="lur s-blur2"
           style={{ background: "var(--purple)" }}
         ></div>
       </div>
