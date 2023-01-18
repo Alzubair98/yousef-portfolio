@@ -1,0 +1,44 @@
+.v-card{
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255,255,255,0.26);
+    box-shadow: var(--boxShadow);
+    border: 7px solid var(--orangeCard);
+    border-radius: 20px;
+    padding: 0 1.62rem 2rem 1.62rem;
+}
+
+.v-card span:nth-of-type(2){
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.v-card > img{
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+
+.c-button{
+    background-color: #fff;
+    box-shadow: 0 1.1rem 3.75rem rgba(0,0,0,0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #5290fd;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .v-card{
+        width: auto;
+    }
+    .c-button{
+        margin-left: 3rem;
+    }
+}

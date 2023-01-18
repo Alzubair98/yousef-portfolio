@@ -1,22 +1,12 @@
 import React from "react";
-import Card from "../Card/Card";
+import Card from "./v-card";
 import "./Videos.css";
 
 const Videos = () => {
   return (
-    <div>
+    <div className="v-home-cont">
       <h1>My Videos</h1>
-      <div className="video-cards">
-        <div>
-          <Card heading={"test"} detail={"why its not working"} />
-        </div>
-        <div>
-          <Card heading={"helli"} detail={"why its not working"} />
-        </div>
-        <div>
-          <Card heading={"test"} detail={"why its not working"} />
-        </div>
-      </div>
+      <Card heading={"test"} detail={"why its not working"} />
     </div>
   );
 };
