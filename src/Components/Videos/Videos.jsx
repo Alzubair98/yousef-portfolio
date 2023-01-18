@@ -5,8 +5,11 @@ import "./Videos.css";
 const Videos = () => {
   return (
     <div className="v-home-cont">
-      <h1>My Videos</h1>
-      <Card heading={"test"} detail={"why its not working"} />
+      <h1 className="v-font">My Videos</h1>
+      <div className="v-card-cont">
+        <Card heading={"test"} detail={"why its not working"} />
+        <Card heading={"test"} detail={"why its not working"} />
+      </div>
     </div>
   );
 };

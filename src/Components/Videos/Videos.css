@@ -1,5 +1,13 @@
+.v-home-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
-
-
-
-
+.v-font{
+    font-size: 2rem;
+}
+.v-card-cont{
+    display: flex;
+    gap: 1rem;
+}
