@@ -20,7 +20,7 @@
 .button{
   border-radius: 34px;
   border: none;
-  color: white;
+  color: white !important;
   font-size: 16px;
   padding:11px 26px;
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
