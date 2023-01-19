@@ -11,33 +11,33 @@ const Videos = () => {
       <div className="v-card-cont">
         <Card
           emoji={HeartEmoji}
-          heading={"test"}
-          detail={"why its not working"}
+          heading={"VEDIO NAME"}
+          detail={"DESCRIPTION"}
           link={"https://youtu.be/PLUp8HiSWng"}
         />
         <Card
           emoji={HeartEmoji}
-          heading={"test"}
-          detail={"why its not working"}
+          heading={"VEDIO NAME"}
+          detail={"DESCRIPTION"}
           link={"https://youtu.be/ExWTZ1YG49I"}
         />
         <Card
           emoji={HeartEmoji}
-          heading={"test"}
-          detail={"why its not working"}
+          heading={"VEDIO NAME"}
+          detail={"DESCRIPTION"}
           link={"https://youtu.be/sOT3nFWVZa8"}
         />
         <Card
           emoji={HeartEmoji}
-          heading={"test"}
-          detail={"why its not working"}
+          heading={"VEDIO NAME"}
+          detail={"DESCRIPTION"}
           link={"https://youtu.be/DHRhdywtDSA"}
         />
 
         <Card
           emoji={HeartEmoji}
-          heading={"test"}
-          detail={"why its not working"}
+          heading={"VEDIO NAME"}
+          detail={"DESCRIPTION"}
           link={"https://youtu.be/ARr3TBl4ml0"}
         />
       </div>

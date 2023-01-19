@@ -9,7 +9,7 @@ const Card = (props) => {
       <span>{heading}</span>
       <span>{detail}</span>
       <a href={link} target="_blank">
-        <button className="c-button">LEARN MORE</button>
+        <button className="c-button">SEE VIDEO</button>
       </a>
     </div>
   );
