@@ -1,5 +1,6 @@
 import Navbar from "./Components/Nabar/Navbar";
 import Videos from "./Components/Videos/Videos";
+import Blogs from "./Components/Blogs/blog";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { themeContext } from "./Contest";
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/video" element={<Videos />} />
+        <Route path="/blog" element={<Blogs />} />
       </Routes>
     </div>
   );

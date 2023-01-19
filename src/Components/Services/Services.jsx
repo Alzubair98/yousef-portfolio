@@ -50,6 +50,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Blogs"}
             detail={"My published articles and blog postings"}
+            link={"/blog"}
           />
         </div>
         <div
