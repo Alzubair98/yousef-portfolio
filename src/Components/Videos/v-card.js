@@ -9,9 +9,9 @@ const Card = (props) => {
       <img src={emoji} />
       <span>{heading}</span>
       <span>{detail}</span>
-      <NavLink to={link}>
+      <a href={link}>
         <button className="c-button">LEARN MORE</button>
-      </NavLink>
+      </a>
     </div>
   );
 };
