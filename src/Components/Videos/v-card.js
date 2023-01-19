@@ -1,6 +1,5 @@
 import React from "react";
 import "./v-card.css";
-import { NavLink } from "react-router-dom";
 
 const Card = (props) => {
   const { emoji, heading, detail, link } = props;
@@ -9,7 +8,7 @@ const Card = (props) => {
       <img src={emoji} />
       <span>{heading}</span>
       <span>{detail}</span>
-      <a href={link}>
+      <a href={link} target="_blank">
         <button className="c-button">LEARN MORE</button>
       </a>
     </div>
