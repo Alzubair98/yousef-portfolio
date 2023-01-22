@@ -15,7 +15,7 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     /* overflow-y: hidden; */
-    color: var(--black)
+    color: var(--black);
 }
 
 .button{
