@@ -31,7 +31,7 @@
 .button:hover{
   background: white;
   cursor: pointer;
-  color: var(--orange);
+  color: var(--orange) !important;
   border: 1px solid var(--orange)
 }
 
