@@ -10,7 +10,7 @@
     box-shadow: var(--boxShadow);
     border: 7px solid var(--orangeCard);
     border-radius: 20px;
-    padding: 0.5rem 1.62rem 2rem 1.62rem;
+    padding: 0 1.62rem 2rem 1.62rem;
 }
 
 .v-card span:nth-of-type(2){
@@ -18,10 +18,16 @@
     font-size: 16px;
 }
 
-.v-card > img{
+.v-card :nth-child(1){
+    border-radius: 10%;
+    margin-top: 0.2rem ;
+    width: 12rem !important;
+}
+
+/* .v-card > img{
     transform: scale(0.6);
     margin-bottom: -2rem;
-}
+} */
 
 .c-button{
     background-color: #fff;
@@ -34,11 +40,6 @@
     cursor: pointer;
 }
 
-.video-player{
-    margin-top: 2px !important;
-    width: 12rem !important;
-    
-}
 
 @media screen and (max-width: 480px){
     .v-card{
