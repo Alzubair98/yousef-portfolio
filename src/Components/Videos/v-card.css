@@ -21,7 +21,7 @@
 .v-card :nth-child(1){
     border-radius: 10%;
     margin-top: 0.2rem ;
-    width: 12rem !important;
+    width: 12rem;
 }
 
 /* .v-card > img{
