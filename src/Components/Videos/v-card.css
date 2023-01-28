@@ -10,7 +10,7 @@
     box-shadow: var(--boxShadow);
     border: 7px solid var(--orangeCard);
     border-radius: 20px;
-    padding: 0 1.62rem 2rem 1.62rem;
+    padding: 0.5rem 1.62rem 2rem 1.62rem;
 }
 
 .v-card span:nth-of-type(2){
@@ -32,6 +32,12 @@
     font-size: 1rem;
     color: #5290fd;
     cursor: pointer;
+}
+
+.video-player{
+    margin-top: 2px !important;
+    width: 12rem !important;
+    border-radius: 10px !important;
 }
 
 @media screen and (max-width: 480px){
