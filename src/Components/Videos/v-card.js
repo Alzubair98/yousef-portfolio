@@ -3,10 +3,10 @@ import "./v-card.css";
 import ReactPlayer from "react-player";
 
 const Card = (props) => {
-  const { emoji, heading, detail, link, name } = props;
+  const { heading, detail, link } = props;
   return (
     <div className="v-card">
-      <ReactPlayer url={link} className="video-player" />
+      <ReactPlayer url={link} />
       <span>{heading}</span>
       <span>{detail}</span>
     </div>
