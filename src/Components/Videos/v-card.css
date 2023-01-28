@@ -37,7 +37,7 @@
 .video-player{
     margin-top: 2px !important;
     width: 12rem !important;
-    border-radius: 10px !important;
+    
 }
 
 @media screen and (max-width: 480px){
